@@ -1,0 +1,20 @@
+2021-12-12T00:41:55+00:00 CRITICAL Uncaught Error: Class 'Custom_Walker_Comment' not found in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php:24
+Stack trace:
+#0 G:\laragon\www\philosophy\wp-includes\comment-template.php(1554): require()
+#1 G:\laragon\www\philosophy\wp-content\themes\philosophy\single.php(120): comments_template()
+#2 G:\laragon\www\philosophy\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#3 G:\laragon\www\philosophy\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#4 G:\laragon\www\philosophy\index.php(17): require('G:\\laragon\\www\\...')
+#5 {main}
+  thrown in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php on line 24
+
+2021-12-12T00:43:28+00:00 CRITICAL require_once(): Failed opening required 'class-wp-bootstrap-comment-walker.php' (include_path='.;G:/laragon/etc/php/pear') in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php on line 22
+
+2021-12-12T00:45:11+00:00 CRITICAL require_once(): Failed opening required 'class-wp-bootstrap-comment-walker.php' (include_path='.;G:/laragon/etc/php/pear') in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php on line 22
+
+2021-12-12T00:45:15+00:00 CRITICAL require_once(): Failed opening required 'class-wp-bootstrap-comment-walker.php' (include_path='.;G:/laragon/etc/php/pear') in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php on line 22
+
+2021-12-12T01:26:22+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in G:\laragon\www\philosophy\wp-content\themes\philosophy\class-wp-bootstrap-comment-walker.php on line 28
+
+2021-12-12T03:03:49+00:00 CRITICAL syntax error, unexpected '>' in G:\laragon\www\philosophy\wp-content\themes\philosophy\class-wp-bootstrap-comment-walker.php on line 50
+

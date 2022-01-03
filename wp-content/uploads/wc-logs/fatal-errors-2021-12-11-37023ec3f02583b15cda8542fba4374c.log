@@ -1,0 +1,10 @@
+2021-12-11T22:56:15+00:00 CRITICAL Uncaught Error: Class 'Custom_Walker_Comment' not found in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php:24
+Stack trace:
+#0 G:\laragon\www\philosophy\wp-includes\comment-template.php(1554): require()
+#1 G:\laragon\www\philosophy\wp-content\themes\philosophy\single.php(120): comments_template()
+#2 G:\laragon\www\philosophy\wp-includes\template-loader.php(106): include('G:\\laragon\\www\\...')
+#3 G:\laragon\www\philosophy\wp-blog-header.php(19): require_once('G:\\laragon\\www\\...')
+#4 G:\laragon\www\philosophy\index.php(17): require('G:\\laragon\\www\\...')
+#5 {main}
+  thrown in G:\laragon\www\philosophy\wp-content\themes\philosophy\comments.php on line 24
+
